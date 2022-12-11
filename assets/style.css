@@ -10,8 +10,9 @@ hr {
 }
 
 .subtitle {
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: bold;
+  color: var(--accent-header);
 }
 
 .skills {
@@ -58,11 +59,12 @@ strong {
   --text: #212121;
   --text-light: #585858;
   --border: #898ea4;
-  --accent: #0d47a1;
+  --accent: #171e91;
   --code: #d81b60;
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
+  --accent-header: #175b91;
 }
 
 /* Dark theme */
@@ -73,10 +75,11 @@ strong {
     --accent-bg: #2b2b2b;
     --text: #dcdcdc;
     --text-light: #ababab;
-    --accent: #ffb300;
+    --accent: #9e33ff;
     --code: #f06292;
     --preformatted: #ccc;
     --disabled: #111;
+    --accent-header: #82df2d;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
@@ -139,7 +142,7 @@ body > header h1 {
 
 body > header p {
   max-width: 40rem;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
@@ -167,6 +170,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  color: var(--accent-header);
 }
 
 h3 {
