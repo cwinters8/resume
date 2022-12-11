@@ -17,7 +17,6 @@ pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
 
 in=${out}
 out="${out_dir}/${out_pdf}"
-timestamp=$(date)
 
 chromium --headless --print-to-pdf=${out} ${in}
 
