@@ -1,0 +1,31 @@
+name: Create PDF File
+
+on: push
+
+jobs:
+  convert:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
+      # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
+      - name: Install pandoc and wkhtmltopdf
+        run: |
+          wget https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+          sudo apt install ./pandoc-2.19.2-1-amd64.deb
+          sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+      - name: Convert md to html
+        run: |
+          ./build.sh
+      - name: Inject styles into html for pdf conversion
+        # TODO: go program will need to build and run with some args
+        run: go run main.go
+      - name: Convert html to pdf
+        # run: "wkhtmltopdf --enable-local-file-access output/resume.html output/resume.pdf --user-style-sheet ./style.css"
+        run: |
+          pandoc -standalone --output=output/resume.pdf --css=style.css --from=markdown --to=pdf --pdf-engine=wkhtmltopdf --pdf-engine-opt="--user-style-sheet" --pdf-engine-opt="style.css" resume.md
+      - uses: actions/upload-artifact@master
+        with: # basically this will put resume.md, resume.html, resume.pdf and resume-stylesheet.css in a zip file.
+          name: ${{ github.actor }}'s Resume
+          path: output

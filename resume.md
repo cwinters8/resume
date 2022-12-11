@@ -1,68 +1,113 @@
 ---
-margin-left: 2cm
-margin-right: 2cm
-margin-top: 1cm
-margin-bottom: 2cm
-title: Jimmy Hendricks
-description-meta: 'This is the meta description for the HTML file, and one day the PDF file, for better SEO?'
-keywords: 
-  - 'php' 
-  - 'mysql' 
-  - 'linux'
-author-meta: 'This will show up as <meta name"author"... in HTML meta tags:'
+title: Clark Winters
+description-meta: Clark Winters Resume
+keywords:
+  - technical
+  - support
+  - web
+  - api
+  - database
+  - linux
+author-meta: Clark Winters
 ---
-###### [[example.com](https://example.com)] . [ me@example.com] . [ 123 456 7890 ]
-### This is where you have your statement, that describes who you are and what you're looking for. Hopefully it's not cliche and it stands out in a good way.  
+
+<!-- markdownlint-disable MD033 -->
+
+###### [clarkwinters.com](https://clarkwinters.com) | [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
+
+###### 1065 Red Oak Rd, Seymour, MO 65746
+
+---
+
+Technical professional with a passion for creating truly excellent customer experiences.
 
 ## Skills
-``` programming```
-``` devops ```
-```databases```
-```containers```
-```linux systems administration```
-```webservers```
-```project management```
-```system architecture & design```
-```entrepreneurship```
-```load/stress testing```
-``` WordPress```
 
-**Programming**: Lua, Haskell, Erlang, Go, Javascript  
-**Databases**: MySQL, Postgres, sqlite, SQL Server, Oracle, Pick  
-**Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian  
-**DevOps**: Ansible, Chef, Kubernetes, etc.  
+<div class="skills">
+<div>
+
+- Cultivating great customer experiences
+- Troubleshooting web related issues
+- Databases and SQL
+  - MySQL
+  - PostgreSQL, including CockroachDB
+  - Amazon Aurora
+  - Amazon DynamoDB
+  - Oracle
+- Linux
+  - RHEL
+  - Ubuntu
+  - Amazon Linux
+
+</div>
+
+<div>
+
+- DevOps
+  - Ansible
+  - Terraform
+  - Docker
+  - Amazon ECS and Fargate
+  - AWS Lambda
+- REST APIs
+- HTML and CSS
+- Programming
+  - Go (golang)
+  - Python
+  - JavaScript
+
+</div>
+</div>
+
+---
 
 ## Experience
-### CEO and Founder, Pied Piper 
-start-date-end-date, City, State and remote
 
-- Things you did/do here 
-- More things that you do here. 
+### Software Engineer, runZero
 
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job. 
+08/2022 - 11/2022, Remote
 
-### Senior Software Architect, Hooli
-2010-2016, San Francisco, CA
+- Assisted customers with questions and issues relating to the software.
+- Made useful contributions to the core network scanning and asset inventory software.
 
-- This is the job you had before your latest job
-- Did you do anything that wasn't part of your job description, but you excelled at? 
+**Technologies used:** Freshdesk, Go, Vue.js, PostgreSQL
 
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job. 
+### Lead Cloud Engineer, 2nd Watch
 
-## Awards & Recognition 
-  * Winner TechCrunch Disrupt 2001
-  * People Magazine's sexiest man alive at 123 My Address, MyCity, TX
+05/2019 - 11/2022, Remote
 
-## Projects
-**[*Personal Blog*](http://luther.io)** (2021-present)
+- Led a team of 7 cloud engineers, supporting AWS infrastructure for ~15 clients at any given time.
+- Provided great customer experiences through consistent communication and high quality technical expertise.
+- Built automated solutions to support clients and improve internal processes.
 
-- Authored a series of articles covering a wide variety of topics and tools related to technology like PHP, WordPress, Ruby, Linux, Docker, and Privacy.
+**Technologies used:** Freshservice, New Relic, Splunk, Go, Python, AWS Lambda, Amazon ECS, Amazon EC2, Terraform, AWS CloudFormation, Amazon DynamoDB, Amazon Aurora
 
-## Education 
+#### Systems Integration Specialist, Boeing
 
-### Masters in BS, Example University 
+09/2018 - 04/2022, Bellevue, WA
 
-- 4.0 GPA 
-- Deans List
-- Member of xyz club, etc. 
-- I didn't really go to college so I don't know what you would put here. 
+#### AWS Migration Engineer, Rackspace
+
+08/2017 - 12/2017, Remote
+
+#### DevOps Engineer, IBM
+
+03/2017 - 08/2017, Boulder, CO
+
+#### Database Administrator, 2nd Watch
+
+09/2015 - 03/2017, Seattle, WA and Remote
+
+#### Oracle Database Administrator, Boeing
+
+09/2013 - 09/2015, Bellevue, WA
+
+#### Oracle Database Administrator, IBM Global Services
+
+01/2011 - 08/2013, Columbia, MO
+
+---
+
+## Education
+
+### Bachelor of Science, William Woods University (2009) {.edu}
