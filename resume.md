@@ -9,17 +9,26 @@ keywords:
   - database
   - linux
 author-meta: Clark Winters
+header-includes:
+  - |
+    ```{=html}
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    ```
 ---
 
 <!-- markdownlint-disable MD033 -->
+
+<div>
 
 ###### [clarkwinters.com](https://clarkwinters.com) | [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
 
 ###### 1065 Red Oak Rd, Seymour, MO 65746
 
+</div>
+
 ---
 
-Technical professional with a passion for creating truly excellent customer experiences.
+###### Technical professional with a passion for creating truly excellent customer experiences. {.desc}
 
 ## Skills
 
@@ -60,6 +69,8 @@ Technical professional with a passion for creating truly excellent customer expe
 </div>
 
 ---
+
+<div class="xp"><!-- keep div -->
 
 ## Experience
 
@@ -102,12 +113,19 @@ Technical professional with a passion for creating truly excellent customer expe
 
 09/2013 - 09/2015, Bellevue, WA
 
-#### Oracle Database Administrator, IBM Global Services
+#### Oracle Database Administrator, IBM
 
 01/2011 - 08/2013, Columbia, MO
 
+</div>
+<p class="spacer"></p>
+
 ---
+
+<div>
 
 ## Education
 
 ### Bachelor of Science, William Woods University (2009) {.edu}
+
+</div>

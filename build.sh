@@ -1,17 +1,24 @@
 #!/bin/bash
 
+in="resume.md"
 out_dir="output"
-out_file="resume.html"
-css_file="style.css"
+out_html="resume.html"
+out_pdf="resume.pdf"
 
-out="${out_dir}/${out_file}"
-result="$(date): "
+out="${out_dir}/${out_html}"
+timestamp=$(date)
 
 mkdir -p ${out_dir}
-cp style.css ${out_dir}/
+cp -R assets ${out_dir}/
 
-pandoc resume.md -f markdown -t html -s -o ${out} -c style.css
+pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
 
-[ $? -eq 0 ] && result+="${out} built successfully" || result+="html build failed"
+[ $? -eq 0 ] && echo "${timestamp}: ${out} built successfully" || ( echo "${timestamp}: html build failed" && exit $? )
 
-echo $result
+in=${out}
+out="${out_dir}/${out_pdf}"
+timestamp=$(date)
+
+chromium --headless --print-to-pdf=${out} ${in}
+
+[ $? -eq 0 ] && echo "${timestamp}: ${out} built successfully" || ( echo "${timestamp}: pdf build failed" && exit $? )

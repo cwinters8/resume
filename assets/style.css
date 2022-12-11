@@ -26,7 +26,17 @@ hr {
 
 .edu {
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.spacer {
+  height: 0;
+  margin: 0;
+}
+
+strong {
+  font-weight: 600;
 }
 
 /*
@@ -149,39 +159,44 @@ body > footer {
 /* Format headers */
 h2,
 h3 {
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0;
 }
 h1 {
-  font-size: 2.7rem;
-}
-
-h2 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 h3 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 1rem 0 0.1rem 0;
 }
 
 h5 {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
 }
 
 h6 {
-  font-size: 0.96rem;
   font-weight: normal;
   text-align: center;
   margin: 10px 0 0 0;
 }
 
+h6,
+p,
+li {
+  font-size: 1rem;
+}
+
 /* p elements */
 p {
-  margin: 0.5rem 0 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 /* Prevent long strings from overflowing container */
@@ -202,14 +217,15 @@ h3 {
   line-height: 1.1;
 }
 
-/* Reduce header size on mobile */
-@media only screen and (max-width: 720px) {
+/* Reduce header size on mobile and print views */
+@media screen and (max-width: 720px), print {
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   h2 {
     font-size: 1.5rem;
+    margin-top: 7px;
   }
 
   h3 {
@@ -217,7 +233,7 @@ h3 {
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -677,4 +693,63 @@ progress::-moz-progress-bar {
 
 progress:indeterminate::-moz-progress-bar {
   background-color: var(--accent-bg);
+}
+
+/* overrides for pdf */
+@media print {
+  @media (prefers-color-scheme: light) {
+    :root {
+      --accent-bg: #fff;
+    }
+  }
+
+  body,
+  .edu {
+    font-size: 0.9rem;
+  }
+
+  body > header {
+    padding-bottom: 0.5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h6,
+  p,
+  hr {
+    margin: 0;
+  }
+
+  /* give some top level elements a little margin */
+  body > div,
+  body > h2,
+  body > h3,
+  body > ul {
+    margin: 7px 0;
+  }
+
+  .desc {
+    margin-top: 5px;
+  }
+
+  .xp h3 {
+    margin-top: 10px;
+  }
+  .xp h4 {
+    margin-top: 8px;
+  }
+  .xp p,
+  li,
+  h6 {
+    font-size: 0.9rem;
+  }
+  .xp ul {
+    margin: 8px 0;
+  }
+
+  .spacer {
+    height: 10px;
+  }
 }
