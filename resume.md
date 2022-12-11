@@ -1,5 +1,6 @@
 ---
 title: Clark Winters
+subtitle: Support Specialist and Systems Integrator
 description-meta: Clark Winters Resume
 keywords:
   - technical
@@ -16,7 +17,7 @@ header-includes:
     ```
 ---
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD001 -->
 
 <div>
 
