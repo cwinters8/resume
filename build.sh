@@ -26,6 +26,6 @@ pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
 in=${out}
 out="${out_dir}/${out_pdf}"
 
-chromium --headless --disable-pdf-tagging --print-to-pdf=${out} ${in}
+${chromium} --headless --disable-pdf-tagging --print-to-pdf=${out} ${in}
 
 [ $? -eq 0 ] && echo "${timestamp}: ${out} built successfully" || ( echo "${timestamp}: pdf build failed" && exit $? )
