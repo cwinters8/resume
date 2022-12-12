@@ -36,7 +36,7 @@ header-includes:
 <div class="skills">
 <div>
 
-- Cultivating great customer experiences
+- Fostering positive customer relationships
 - Troubleshooting web related issues
 - Databases and SQL
   - MySQL
