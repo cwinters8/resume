@@ -2,6 +2,10 @@
 
 This repo contains my current [resume](./resume.md) in markdown format, along with its CSS styling and a github actions workflow for building html and pdf artifacts and deploying them to github pages.
 
+## hosted
+
+You can find the built website at [resume.clarkwinters.com](https://resume.clarkwinters.com)
+
 ## building artifacts locally
 
 ### prerequisites
