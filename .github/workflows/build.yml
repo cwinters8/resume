@@ -26,8 +26,7 @@ jobs:
       ENV: ci
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
-      # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
+        uses: actions/checkout@v2
       - name: Install pandoc
         run: |
           wget https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb
