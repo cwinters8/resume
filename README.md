@@ -1,60 +1,31 @@
-# Markdown Resume
+# resume
 
-This repo allows you to build/maintain your resume in a Markdown file, and then publish it into an HTML or PDF file.
-Technically, you could output it into any file you wanted with pandoc, or wkhtmltopdf, but I wasn't interested in those scenarios so I explore those avenues.
+This repo contains my current [resume](./resume.md) in markdown format, along with its CSS styling and a github actions workflow for building html and pdf artifacts and deploying them to github pages.
 
-The inspiration for this project came from my need to look for a job, my need to update my resume, and my desire not to have to write something in Google docs, or Microsoft Word, so I scoured the web for newer way to build/maintain a resume, while doing so I ran into this [project by Sonya Sawtelle](https://sdsawtelle.github.io/blog/output/simple-markdown-resume-with-pandoc-and-wkhtmltopdf.html).
+## building artifacts locally
 
-I modified the CSS for my taste, and noticed that some of the documentation needed to be updated.
+### prerequisites
 
-Since Sonya's post is nearly five years old, there have been many changes to the command line utilities that she used, so I've updated this README to reflect those changes.
+#### [pandoc](https://pandoc.org)
 
-## Workflow
-
-The workflow is pretty simple.
-
-1. Edit the resume.md file.
-1. Run pandoc to convert the Markdown file to HTML. OR,
-1. Run pandoc to convert the Markdown file into a PDF.
-
-The big difference between Sonya's workflow is that if you want, you can convert from MD -> PDF in one step, rather than two. You can still go from MD -> HTML -> PDF, but if you don't want to have an HTML file, you don't have to.
-
-I also don't feel like supporting/using Microsoft Word, so I'm not even trying to output to .docx.
-
-## Updated instructions for a Mac .. or 2021
-
-A lot has changed since Sonya wrote her blog post and shared her workflow, so here are some updates on how to get started and building/updating your own resume.
-
-## Pre-Requisites
-
-### [Pandoc](https://pandoc.org) a universal document converter
+used for converting md to html
 
 ```sh
-    brew install pandoc
+brew install pandoc
 ```
 
-### [Wkhtmltopdf](https://wkhtmltopdf.org)
+#### [chromium](https://www.chromium.org/Home/)
+
+used for generating pdf from html
 
 ```sh
-    brew install wkhtmltopdf
+brew install --cask chromium
 ```
 
-## Markdown to HTML
+### build
+
+The build script will place built artifacts in a directory named `output`, which will be created if it does not exist.
 
 ```sh
-pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o resume.html
-```
-
-## Markdown to PDF
-
-```sh
-pandoc resume.md -f markdown -t pdf --pdf-engine=wkhtmltopdf -c resume-stylesheet.css -s -o resume.pdf
-```
-
-## HTML to PDF
-
-If you want to convert from HTML to PDF for some reason, you'll need to add to switch to wkhtmltopdf so that it works properly.
-
-```sh
-wkhtmltopdf --enable-local-file-access resume.html resume.pdf
+./build.sh
 ```
