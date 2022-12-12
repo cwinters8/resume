@@ -1,23 +1,45 @@
-name: Create PDF File
+name: MD Converter
 
-on: push
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "resume.md"
+      - "assets/**"
+      - "build.sh"
+      - ".github/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   convert:
     runs-on: ubuntu-22.04
+    env:
+      ENV: ci
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
       # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
-      - name: Install pandoc and chromium
+      - name: Install pandoc
         run: |
-          # TODO: install chromium
           wget https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb
-          sudo apt install ./pandoc-2.19.2-1-amd64.deb
-      - name: Convert md to html and pdf
+          sudo apt install -y ./pandoc-2.19.2-1-amd64.deb
+      - name: Convert md to html (pdf not supported in ci yet)
         run: ./build.sh
-      - uses: actions/upload-artifact@master
-        with: # basically this will put resume.md, resume.html, resume.pdf and resume-stylesheet.css in a zip file.
-          name: ${{ github.actor }}'s Resume
-          path: output
-      # TODO: deploy content to clarkwinters.com
+      - name: Setup gh pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: output/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

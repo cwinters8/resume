@@ -1,0 +1,12 @@
+name: Validating usage of chrome
+
+on:
+  push:
+    paths:
+      - "validate.sh"
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: ./validate.sh
