@@ -5,12 +5,9 @@ out_dir="output"
 out_html="resume.html"
 out_pdf="resume.pdf"
 
-chromium="chromium"
-
 if [ ${ENV} == "ci" ]; then
   echo "in ci"
   out_html="index.html"
-  chromium="google-chrome"
 fi
 
 out="${out_dir}/${out_html}"
