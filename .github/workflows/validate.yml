@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "validate.sh"
-      - ".github/**"
+      - ".github/workflows/validate.yml"
 
 jobs:
   validate:

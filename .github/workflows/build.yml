@@ -31,7 +31,7 @@ jobs:
         run: |
           wget https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb
           sudo apt install -y ./pandoc-2.19.2-1-amd64.deb
-      - name: Convert md to html (pdf not supported in ci yet)
+      - name: Convert md to html
         run: ./build.sh
       - name: Setup gh pages
         uses: actions/configure-pages@v2
