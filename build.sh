@@ -5,7 +5,7 @@ out_dir="output"
 out_html="resume.html"
 out_pdf="resume.pdf"
 
-if [ ${ENV} == "ci" ]; then
+if [[ ${ENV} == "ci" ]]; then
   echo "in ci"
   out_html="index.html"
 fi
