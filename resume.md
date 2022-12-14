@@ -14,6 +14,7 @@ header-includes:
   - |
     ```{=html}
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no">
     ```
 ---
 

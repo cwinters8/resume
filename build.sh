@@ -2,18 +2,19 @@
 
 in="resume.md"
 out_dir="output"
-out_html="resume.html"
+out_html="index.html"
 out_pdf="resume.pdf"
 
-if [[ ${ENV} == "ci" ]]; then
-  echo "in ci"
-  out_html="index.html"
+if [[ ${ENV} != "ci" ]]; then
+  echo "local build"
+  out_dir="/usr/local/var/www/resume"
 fi
 
 out="${out_dir}/${out_html}"
 timestamp=$(date)
 
 mkdir -p ${out_dir}
+rm -rf ${out_dir}/*
 cp -R assets ${out_dir}/
 
 pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
