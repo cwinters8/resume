@@ -97,7 +97,7 @@ header-includes:
 
 #### Systems Integration Specialist, Boeing
 
-09/2018 - 04/2022, Bellevue, WA
+09/2018 - 04/2019, Bellevue, WA
 
 #### AWS Migration Engineer, Rackspace
 
