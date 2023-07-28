@@ -7,7 +7,7 @@ out_pdf="resume.pdf"
 
 if [[ ${ENV} != "ci" ]]; then
   echo "local build"
-  out_dir="/usr/local/var/www/resume"
+  # out_dir="/usr/local/var/www/resume"
 fi
 
 out="${out_dir}/${out_html}"

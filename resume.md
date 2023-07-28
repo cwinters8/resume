@@ -1,6 +1,9 @@
 ---
 title: Clark Winters
-subtitle: Support Specialist and Systems Integrator
+subtitle: |
+  [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
+  <br>
+  1065 Red Oak Rd, Seymour, MO 65746
 description-meta: Clark Winters Resume
 keywords:
   - technical
@@ -20,52 +23,22 @@ header-includes:
 
 <!-- markdownlint-disable MD033 MD001 -->
 
-<div>
-
-###### [clarkwinters.com](https://clarkwinters.com) | [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
-
-###### 1065 Red Oak Rd, Seymour, MO 65746
-
-</div>
-
----
-
-###### Technical professional with a passion for creating truly excellent customer experiences. {.desc}
-
 ## Skills
 
 <div class="skills">
 <div>
 
-- Fostering positive customer relationships
-- Troubleshooting web related issues
-- Databases and SQL
-  - MySQL
-  - PostgreSQL, including CockroachDB
-  - Amazon Aurora
-  - Amazon DynamoDB
-  - Oracle
-- Linux
-  - RHEL
-  - Ubuntu
-  - Amazon Linux
+- Capable of and enjoy hard physical labor
+- Problem solving
+- Logic
 
 </div>
 
 <div>
 
-- DevOps
-  - Ansible
-  - Terraform
-  - Docker
-  - Amazon ECS and Fargate
-  - AWS Lambda
-- REST APIs
-- HTML and CSS
-- Programming
-  - Go (golang)
-  - Python
-  - JavaScript
+- Critical thinking
+- Communication
+- Learning new skills quickly and easily
 
 </div>
 </div>
@@ -76,28 +49,40 @@ header-includes:
 
 ## Experience
 
-### Software Engineer, runZero
+#### Support Engineer, SingleStore
+
+01/2023 - 03/2023, Remote
+
+- Provided technical support to customers for SingleStore's database product.
+
+#### Software Engineer, runZero
 
 08/2022 - 11/2022, Remote
 
 - Assisted customers with questions and issues relating to the software.
 - Made useful contributions to the core network scanning and asset inventory software.
 
-**Technologies used:** Freshdesk, Go, Vue.js, PostgreSQL
+#### CloudOps Engineer, EverOps
 
-### Lead Cloud Engineer, 2nd Watch
+05/2022 - 07/2022, Remote
 
-05/2019 - 11/2022, Remote
+- Managed cloud infrastructure on behalf of EverOps' customers.
 
-- Led a team of 7 cloud engineers, supporting AWS infrastructure for ~15 clients at any given time.
-- Provided great customer experiences through consistent communication and high quality technical expertise.
+#### Lead Cloud Engineer, 2nd Watch
+
+05/2019 - 04/2022, Remote
+
+- Led a team of 7 cloud engineers, supporting infrastructure for ~15 clients at any given time.
+- Provided great customer experiences through consistent communication and technical expertise.
 - Built automated solutions to support clients and improve internal processes.
-
-**Technologies used:** Freshservice, New Relic, Splunk, Go, Python, AWS Lambda, Amazon ECS, Amazon EC2, Terraform, AWS CloudFormation, Amazon DynamoDB, Amazon Aurora
 
 #### Systems Integration Specialist, Boeing
 
 09/2018 - 04/2019, Bellevue, WA
+
+#### Dishwasher, Boulder Beer Company
+
+03/2018 - 07/2018, Boulder, CO
 
 #### AWS Migration Engineer, Rackspace
 
@@ -109,7 +94,7 @@ header-includes:
 
 #### Database Administrator, 2nd Watch
 
-09/2015 - 03/2017, Seattle, WA and Remote
+09/2015 - 03/2017, Seattle, WA and remote
 
 #### Oracle Database Administrator, Boeing
 
@@ -118,6 +103,10 @@ header-includes:
 #### Oracle Database Administrator, IBM
 
 01/2011 - 08/2013, Columbia, MO
+
+#### Receiving Associate, Sears
+
+09/2009 - 03/2011, Columbia, MO
 
 </div>
 <p class="spacer"></p>
