@@ -1,7 +1,7 @@
 ---
 title: Clark Winters
 subtitle: |
-  [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
+  [clarkwinters.com](https://clarkwinters.com) | [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
   <br>
   1065 Red Oak Rd, Seymour, MO 65746
 description-meta: Clark Winters Resume
@@ -10,6 +10,7 @@ keywords:
   - support
   - web
   - api
+  - cloud
   - database
   - linux
 author-meta: Clark Winters
@@ -23,22 +24,48 @@ header-includes:
 
 <!-- markdownlint-disable MD033 MD001 -->
 
-## Skills
+## General Skills
 
 <div class="skills">
 <div>
 
-- Capable of and enjoy hard physical labor
+- Fostering positive relationships
+- Creating useful web-based solutions
+- Helping coworkers and mentees
 - Problem solving
-- Logic
 
 </div>
 
 <div>
 
-- Critical thinking
-- Communication
+- Logic and critical thinking
 - Learning new skills quickly and easily
+- Communication
+
+</div>
+</div>
+
+## Technical Skills
+
+<div class="skills">
+<div>
+
+- Web frontend programming
+  - HTML, CSS, and JavaScript
+- [Go](https://go.dev/) server-side programming
+- Cloud computing
+  - Digital Ocean
+  - Amazon Web Services
+
+</div>
+<div>
+
+- Databases and SQL
+  - MySQL
+  - PostgreSQL, including CockroachDB
+  - MongoDB
+  - Oracle
+  - SQL Server
 
 </div>
 </div>
@@ -80,10 +107,6 @@ header-includes:
 
 09/2018 - 04/2019, Bellevue, WA
 
-#### Dishwasher, Boulder Beer Company
-
-03/2018 - 07/2018, Boulder, CO
-
 #### AWS Migration Engineer, Rackspace
 
 08/2017 - 12/2017, Remote
@@ -103,10 +126,6 @@ header-includes:
 #### Oracle Database Administrator, IBM
 
 01/2011 - 08/2013, Columbia, MO
-
-#### Receiving Associate, Sears
-
-09/2009 - 03/2011, Columbia, MO
 
 </div>
 <p class="spacer"></p>
