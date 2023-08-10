@@ -48,6 +48,10 @@ strong {
   font-weight: 600;
 }
 
+.cover {
+  margin: 1rem auto 0.5rem;
+}
+
 /*
   simple.css (src: https://github.com/kevquirk/simple.css/blob/main/simple.css)
   somewhat modified from original
