@@ -31,13 +31,13 @@ header-includes:
 
 - Fostering positive relationships
 - Helping customers and coworkers succeed
-- Creating useful web-based solutions
-- Problem solving
+- Creating and implementing useful technical solutions
 
 </div>
 
 <div>
 
+- Problem solving
 - Logic and critical thinking
 - Learning new skills quickly and easily
 - Communication
