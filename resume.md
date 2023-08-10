@@ -30,8 +30,8 @@ header-includes:
 <div>
 
 - Fostering positive relationships
+- Helping customers and coworkers succeed
 - Creating useful web-based solutions
-- Helping coworkers and mentees
 - Problem solving
 
 </div>
