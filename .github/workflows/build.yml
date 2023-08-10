@@ -9,6 +9,7 @@ on:
       - "assets/**"
       - "build.sh"
       - ".github/**"
+      - "custom/**"
 
 permissions:
   contents: read
