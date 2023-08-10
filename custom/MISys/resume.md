@@ -36,12 +36,12 @@ Cover letter: [https://resume.clarkwinters.com/MISys/cover_letter.pdf](https://r
 - Fostering positive relationships
 - Helping customers and coworkers succeed
 - Creating and implementing useful technical solutions
-- Problem solving
 
 </div>
 
 <div>
 
+- Problem solving
 - Logic and critical thinking
 - Learning new skills quickly and easily
 - Communication
