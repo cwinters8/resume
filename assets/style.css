@@ -10,7 +10,7 @@ hr {
 }
 
 .title {
-  margin: 1rem auto 0.5rem;
+  margin: 1rem auto 0;
 }
 
 .subtitle {
@@ -53,7 +53,7 @@ strong {
 }
 
 .cover {
-  margin: 1rem auto 0.5rem;
+  margin: 0 auto;
 }
 
 ul {
@@ -150,7 +150,8 @@ body > header {
   background-color: var(--accent-bg);
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 0 0.5rem 1rem 0.5rem;
+  padding: 0 0.5rem 0.5rem;
+  margin-bottom: 0.25rem;
   grid-column: 1 / -1;
 }
 
@@ -181,7 +182,7 @@ body > footer {
 /* Format headers */
 h2,
 h3 {
-  margin: 1rem 0 0.5rem;
+  margin: 0.5rem 0;
 }
 h1 {
   font-size: 2rem;
