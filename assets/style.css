@@ -9,6 +9,10 @@ hr {
   padding: 0;
 }
 
+.title {
+  margin: 1rem auto 0.5rem;
+}
+
 .subtitle {
   font-size: 1.2rem;
   font-weight: bold;
@@ -50,6 +54,10 @@ strong {
 
 .cover {
   margin: 1rem auto 0.5rem;
+}
+
+ul {
+  margin: 0.5rem 0 1rem;
 }
 
 /*
@@ -173,14 +181,14 @@ body > footer {
 /* Format headers */
 h2,
 h3 {
-  margin: 1rem 0;
+  margin: 1rem 0 0.5rem;
 }
 h1 {
   font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--accent-header);
 }
 
@@ -189,8 +197,8 @@ h3 {
 }
 
 h4 {
-  font-size: 1.15rem;
-  margin: 1rem 0 0.1rem 0;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.1rem 0;
 }
 
 h5 {
@@ -737,6 +745,14 @@ progress:indeterminate::-moz-progress-bar {
     margin: 0;
   }
 
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .top {
+    margin-top: 16px;
+  }
+
   /* give some top level elements a little margin */
   body > div,
   body > h2,
@@ -747,6 +763,10 @@ progress:indeterminate::-moz-progress-bar {
 
   .desc {
     margin-top: 5px;
+  }
+
+  .xp {
+    margin: 0;
   }
 
   .xp h3 {

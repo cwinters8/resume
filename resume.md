@@ -24,7 +24,7 @@ header-includes:
 
 <!-- markdownlint-disable MD033 MD001 -->
 
-## General Skills
+## General Skills {.top}
 
 <div class="skills">
 <div>
@@ -52,10 +52,14 @@ header-includes:
 
 - Web frontend programming
   - HTML, CSS, and JavaScript
-- [Go](https://go.dev/) server-side programming
-- Cloud computing
-  - Digital Ocean
-  - Amazon Web Services
+- Server-side programming
+  - [Go](https://go.dev/)
+  - Python
+  - Bash
+- Operating systems
+  - Linux (Ubuntu and Fedora based)
+  - MacOS
+  - Windows
 
 </div>
 <div>
@@ -66,6 +70,9 @@ header-includes:
   - MongoDB
   - Oracle
   - SQL Server
+- Cloud computing
+  - Digital Ocean
+  - Amazon Web Services
 
 </div>
 </div>
@@ -74,7 +81,7 @@ header-includes:
 
 <div class="xp"><!-- keep div -->
 
-## Experience
+## Experience {.top}
 
 #### Support Engineer, SingleStore
 
