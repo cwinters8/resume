@@ -141,7 +141,7 @@ header-includes:
 
 <div>
 
-## Education
+## Education {.top}
 
 ### Bachelor of Science, William Woods University (2009) {.edu}
 
