@@ -130,7 +130,7 @@ header-includes:
 
 09/2013 - 09/2015, Bellevue, WA
 
-#### Oracle Database Administrator, IBM
+#### Database Administrator, IBM
 
 01/2011 - 08/2013, Columbia, MO
 
