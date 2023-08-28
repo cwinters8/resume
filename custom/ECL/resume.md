@@ -24,6 +24,12 @@ header-includes:
 
 <!-- markdownlint-disable MD033 MD001 -->
 
+<!-- fake update -->
+
+<div class="cover">
+Cover letter: [https://resume.clarkwinters.com/ECL/cover_letter.pdf](https://resume.clarkwinters.com/ECL/cover_letter.pdf)
+</div>
+
 ## General Skills {.top}
 
 <div class="skills">
