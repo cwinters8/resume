@@ -80,7 +80,7 @@ header-includes:
   - Docker
   - Ansible
   - Git, GitHub, GitLab, and BitBucket
-  - JIRA
+  - Jira
   - Zendesk
   - Freshdesk and Freshservice
 
