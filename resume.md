@@ -29,9 +29,11 @@ header-includes:
 <div class="skills">
 <div>
 
+- Customer service
 - Fostering positive relationships
 - Helping customers and coworkers succeed
 - Creating and implementing useful technical solutions
+- Troubleshooting
 
 </div>
 
@@ -41,6 +43,7 @@ header-includes:
 - Logic and critical thinking
 - Learning new skills quickly and easily
 - Communication
+- Explaining technical concepts effectively
 
 </div>
 </div>
@@ -60,6 +63,10 @@ header-includes:
   - Linux (Ubuntu and Fedora based)
   - MacOS
   - Windows
+- Cloud computing
+  - Digital Ocean
+  - Amazon Web Services
+  - Google Cloud Platform
 
 </div>
 <div>
@@ -70,9 +77,14 @@ header-includes:
   - MongoDB
   - Oracle
   - SQL Server
-- Cloud computing
-  - Digital Ocean
-  - Amazon Web Services
+- Tools
+  - Terraform
+  - Docker
+  - Ansible
+  - Git, GitHub, GitLab, and BitBucket
+  - JIRA
+  - Zendesk
+  - Freshdesk and Freshservice
 
 </div>
 </div>
@@ -81,58 +93,58 @@ header-includes:
 
 <div class="xp"><!-- keep div -->
 
-## Experience {.top}
-
-#### Support Engineer, SingleStore
-
-01/2023 - 03/2023, Remote
-
-- Provided technical support to customers for SingleStore's database product.
-
-#### Software Engineer, runZero
-
-08/2022 - 11/2022, Remote
-
-- Assisted customers with questions and issues relating to the software.
-- Made useful contributions to the core network scanning and asset inventory software.
-
-#### CloudOps Engineer, EverOps
-
-05/2022 - 07/2022, Remote
-
-- Managed cloud infrastructure on behalf of EverOps' customers.
+## Experience
 
 #### Lead Cloud Engineer, 2nd Watch
 
-05/2019 - 04/2022, Remote
+2019 - 2022, Remote
 
 - Led a team of 7 cloud engineers, supporting infrastructure for ~15 clients at any given time.
 - Provided great customer experiences through consistent communication and technical expertise.
 - Built automated solutions to support clients and improve internal processes.
+- Supported the legacy automated patching environment, which primarily ran on AWS Systems Manager and AWS Lambda.
+- Built a full stack application for the patching team to be able to organize customers' EC2 instances into groups and patch them accordingly. The technical stack included Go and Vue.js.
 
 #### Systems Integration Specialist, Boeing
 
-09/2018 - 04/2019, Bellevue, WA
+2018 - 2019, Bellevue, WA
 
-#### AWS Migration Engineer, Rackspace
-
-08/2017 - 12/2017, Remote
-
-#### DevOps Engineer, IBM
-
-03/2017 - 08/2017, Boulder, CO
+- Responsible for managing and maintaining Linux servers, ensuring their proper operation and security.
+- Created custom hardened ISOs for RedHat Enterprise Linux, Oracle Enterprise Linux, Ubuntu, and SUSE for company-wide distribution
+- Created automation scripts to streamline processes and reduce manual intervention.
+- Managed and utilized a self-hosted GitLab instance for source control and continuous deployment.
+- Contributed to the development of internal websites, which allowed internal customers to learn about the team's offerings, release cycles, and maintenance schedules.
 
 #### Database Administrator, 2nd Watch
 
-09/2015 - 03/2017, Seattle, WA and remote
+2015 - 2017, Seattle, WA and remote
+
+- Built database support service into an automated, efficient, and respected part of the Managed Cloud Services business.
+- Provided production enterprise support for Oracle, SQL Server, and MySQL databases.
+- Responsible for the daily operations of several hundred database instances, hosted on both EC2 instances and RDS.
+- Standardized the process to migrate databases into the cloud for efficiency and low error rates.
+- Implemented strategic automation to reduce human time requirements and potential for error.
+- Provided recommendations to customers to enable them to drive down infrastructure and operating costs.
 
 #### Oracle Database Administrator, Boeing
 
-09/2013 - 09/2015, Bellevue, WA
+2013 - 2015, Bellevue, WA
+
+- Tech lead for the internal Oracle Database on Linux managed service offering, which was responsible for 65% of all Boeing Oracle databases, nearly 8000 instances hosted on Oracle RAC clusters.
+- Responsible for the implementation, maintenance, troubleshooting, and capacity plan of Oracle RAC clusters.
+- Provided 24x7 operational support with my team.
+- Implemented run books and shell scripts to reduce errors and decrease delivery times.
+- Contributed to Boeing's DBaaS internal cloud project, including the creation of the Oracle Database on Linux golden images used on the VMWare instances deployed for hosting.
 
 #### Database Administrator, IBM
 
-01/2011 - 08/2013, Columbia, MO
+2011 - 2013, Columbia, MO
+
+- Responsible for the support and maintenance of Oracle, DB2, and SQL Server databases hosted on Linux and Windows operating systems.
+- Ensured high availability and recoverability for all database instances.
+- Part of 24x7 on-call rotation.
+- Improved daily health check processes from being high-touch and manual to shell scripts that ran on CRON schedules and delivered the results to the appropriate stakeholders automatically.
+- Migrated RMAN backup jobs to Oracle Enterprise Manager, allowing for greater scheduling flexibility and consistent alerting.
 
 </div>
 <p class="spacer"></p>
@@ -141,7 +153,7 @@ header-includes:
 
 <div>
 
-## Education {.top}
+## Education
 
 ### Bachelor of Science, William Woods University (2009) {.edu}
 
