@@ -29,20 +29,18 @@ header-includes:
 <div class="skills">
 <div>
 
-- Customer service
+- Enthusiastic and professional customer service
 - Fostering positive relationships
 - Helping customers and coworkers succeed
 - Creating and implementing useful technical solutions
-- Troubleshooting
 
 </div>
 
 <div>
 
-- Problem solving
-- Logic and critical thinking
+- Effective troubleshooting
 - Learning new skills quickly and easily
-- Communication
+- Consistent and clear communication
 - Explaining technical concepts effectively
 
 </div>
@@ -95,56 +93,75 @@ header-includes:
 
 ## Experience
 
+<div class="job"><!-- keep div -->
+
 #### Lead Cloud Engineer, 2nd Watch
 
 2019 - 2022, Remote
 
 - Led a team of 7 cloud engineers, supporting infrastructure for ~15 clients at any given time.
-- Provided great customer experiences through consistent communication and technical expertise.
-- Built automated solutions to support clients and improve internal processes.
-- Supported the legacy automated patching environment, which primarily ran on AWS Systems Manager and AWS Lambda.
+- Delivered exceptional customer experiences through consistent communication and technical expertise.
+- Developed and implemented automated solutions to optimize client support and improve internal processes.
 - Built a full stack application for the patching team to be able to organize customers' EC2 instances into groups and patch them accordingly. The technical stack included Go and Vue.js.
+
+</div>
+
+<div class="job"><!-- keep div -->
 
 #### Systems Integration Specialist, Boeing
 
 2018 - 2019, Bellevue, WA
 
-- Responsible for managing and maintaining Linux servers, ensuring their proper operation and security.
-- Created custom hardened ISOs for RedHat Enterprise Linux, Oracle Enterprise Linux, Ubuntu, and SUSE for company-wide distribution
-- Created automation scripts to streamline processes and reduce manual intervention.
-- Managed and utilized a self-hosted GitLab instance for source control and continuous deployment.
-- Contributed to the development of internal websites, which allowed internal customers to learn about the team's offerings, release cycles, and maintenance schedules.
+- Responsible for managing and maintaining Linux servers to ensure their proper operation and security.
+- Created custom hardened ISOs for Red Hat Enterprise Linux, Oracle Enterprise Linux, Ubuntu, and SUSE for company-wide distribution
+- Developed automation scripts to streamline processes and reduce manual intervention.
+- Utilized and managed a self-hosted GitLab instance for source control and continuous deployment.
+- Contributed to the development of internal websites that enabled internal customers to learn about the team's offerings, release cycles, and maintenance schedules.
+
+</div>
+
+<div class="job"><!-- keep div -->
 
 #### Database Administrator, 2nd Watch
 
 2015 - 2017, Seattle, WA and remote
 
-- Built database support service into an automated, efficient, and respected part of the Managed Cloud Services business.
-- Provided production enterprise support for Oracle, SQL Server, and MySQL databases.
-- Responsible for the daily operations of several hundred database instances, hosted on both EC2 instances and RDS.
-- Standardized the process to migrate databases into the cloud for efficiency and low error rates.
-- Implemented strategic automation to reduce human time requirements and potential for error.
-- Provided recommendations to customers to enable them to drive down infrastructure and operating costs.
+- Spearheaded the development of the database support service, making it an integral and respected part of the Managed Cloud Services business.
+- Successfully implemented production enterprise support for Oracle, SQL Server, and MySQL databases.
+- Accountable for overseeing the daily operations of several hundred database instances, hosted on both EC2 instances and RDS.
+- Initiated the standardization of the process for migrating databases into the cloud for increased efficiency and reduced error rates.
+- Introduced strategic automation to minimize human error and time requirements.
+- Provided recommendations to customers to help them cut down on infrastructure and operating costs.
+
+</div>
+
+<div class="job"><!-- keep div -->
 
 #### Oracle Database Administrator, Boeing
 
 2013 - 2015, Bellevue, WA
 
-- Tech lead for the internal Oracle Database on Linux managed service offering, which was responsible for 65% of all Boeing Oracle databases, nearly 8000 instances hosted on Oracle RAC clusters.
-- Responsible for the implementation, maintenance, troubleshooting, and capacity plan of Oracle RAC clusters.
-- Provided 24x7 operational support with my team.
-- Implemented run books and shell scripts to reduce errors and decrease delivery times.
-- Contributed to Boeing's DBaaS internal cloud project, including the creation of the Oracle Database on Linux golden images used on the VMWare instances deployed for hosting.
+- Served as the Tech Lead for the internal Oracle Database on Linux managed service offering at Boeing, overseeing 65% of all Oracle databases for the company, which amounted to nearly 8000 instances hosted on Oracle RAC clusters.
+- Assumed responsibility for implementing, maintaining, troubleshooting, and capacity planning of Oracle RAC clusters.
+- Worked with my team to provide 24x7 operational support.
+- Developed and implemented run books and shell scripts to minimize errors and reduce delivery times.
+- Contributed to Boeing's DBaaS internal cloud project by creating Oracle Database on Linux golden images used on the deployed VMWare instances.
+
+</div>
+
+<div class="job"><!-- keep div -->
 
 #### Database Administrator, IBM
 
 2011 - 2013, Columbia, MO
 
-- Responsible for the support and maintenance of Oracle, DB2, and SQL Server databases hosted on Linux and Windows operating systems.
-- Ensured high availability and recoverability for all database instances.
-- Part of 24x7 on-call rotation.
-- Improved daily health check processes from being high-touch and manual to shell scripts that ran on CRON schedules and delivered the results to the appropriate stakeholders automatically.
-- Migrated RMAN backup jobs to Oracle Enterprise Manager, allowing for greater scheduling flexibility and consistent alerting.
+- Responsible for supporting and maintaining Oracle, DB2, and SQL Server databases hosted on Linux and Windows operating systems.
+- Ensured that all database instances were highly available and recoverable.
+- Participated in a 24x7 on-call rotation.
+- Improved the daily health check processes by creating shell scripts that ran on CRON schedules and automatically delivered the results to the appropriate stakeholders, replacing high-touch and manual procedures.
+- Migrated RMAN backup jobs to Oracle Enterprise Manager, resulting in greater scheduling flexibility and more consistent alerting.
+
+</div>
 
 </div>
 <p class="spacer"></p>
