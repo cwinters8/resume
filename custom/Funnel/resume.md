@@ -1,6 +1,7 @@
 ---
 title: Clark Winters
 subtitle: |
+  <h2>Technical Support Engineer</h2>
   [clarkwinters.com](https://clarkwinters.com) | [career@clarkwinters.com](mailto:career@clarkwinters.com) | [417-880-6924](tel:+14178806924)
   <br>
   1065 Red Oak Rd, Seymour, MO 65746

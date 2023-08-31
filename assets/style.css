@@ -65,6 +65,11 @@ ul {
   break-inside: avoid;
 }
 
+header h2 {
+  margin: 0.25rem 0;
+  color: black;
+}
+
 /*
   simple.css (src: https://github.com/kevquirk/simple.css/blob/main/simple.css)
   somewhat modified from original
@@ -156,7 +161,7 @@ body > header {
   border-bottom: 1px solid var(--border);
   text-align: center;
   padding: 0 0.5rem 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   grid-column: 1 / -1;
 }
 
@@ -614,7 +619,7 @@ hr {
   border: none;
   height: 1px;
   background: var(--border);
-  margin: 0.75rem auto;
+  margin: 0.5rem auto;
 }
 
 mark {
@@ -750,12 +755,19 @@ progress:indeterminate::-moz-progress-bar {
     margin: 0;
   }
 
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  header h2 {
+    font-size: 1rem;
+  }
+
   h2 {
     font-size: 1.2rem;
   }
 
   /* give some top level elements a little margin */
-  body > div,
   body > h2,
   body > h3,
   body > ul {
@@ -773,16 +785,13 @@ progress:indeterminate::-moz-progress-bar {
   .xp h3 {
     margin-top: 10px;
   }
-  .xp h4 {
-    margin-top: 8px;
-  }
   p,
   li,
   h6 {
     font-size: 0.75rem;
   }
   .xp ul {
-    margin: 8px 0;
+    margin: 0 0 5px;
   }
 
   .spacer {

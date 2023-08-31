@@ -3,7 +3,7 @@
 in="resume.md"
 out_dir="output"
 out_html="index.html"
-out_pdf="resume.pdf"
+out_pdf="Clark_Winters-resume.pdf"
 
 custom_dir="custom"
 
@@ -49,7 +49,7 @@ do
   chromium --headless --print-to-pdf-no-header --disable-pdf-tagging --print-to-pdf=${resume_out_pdf} ${resume_out_html}
   [ $? -eq 0 ] && echo "${timestamp}: ${resume_out_pdf} built successfully" || ( echo "${timestamp}: pdf build failed" && exit $? )
 
-  rm -f ${resume_out_html}
+  # rm -f ${resume_out_html}
 
   if [ -f "${cover_letter}" ]; then
     cp ${cover_letter} ${resume_out_dir}/
