@@ -6,10 +6,12 @@ out_html="index.html"
 out_pdf="Clark_Winters-resume.pdf"
 
 custom_dir="custom"
+is_ci=false
 
 if [[ ${ENV} != "ci" ]]; then
   echo "local build"
-  # out_dir="/usr/local/var/www/resume"
+else
+  is_ci=true
 fi
 
 out="${out_dir}/${out_html}"
@@ -49,7 +51,9 @@ do
   chromium --headless --print-to-pdf-no-header --disable-pdf-tagging --print-to-pdf=${resume_out_pdf} ${resume_out_html}
   [ $? -eq 0 ] && echo "${timestamp}: ${resume_out_pdf} built successfully" || ( echo "${timestamp}: pdf build failed" && exit $? )
 
-  # rm -f ${resume_out_html}
+  if $is_ci; then
+    rm -f ${resume_out_html} ${resume_out_pdf}
+  fi
 
   if [ -f "${cover_letter}" ]; then
     cp ${cover_letter} ${resume_out_dir}/
