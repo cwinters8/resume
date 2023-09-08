@@ -30,9 +30,9 @@ header-includes:
 <div>
 
 - Providing customer-focused technical support
+- Developing effective integrations and solutions
+- Efficient troubleshooting
 - Fostering positive relationships
-- Creating and implementing useful technical solutions
-- Effective troubleshooting
 
 </div>
 
@@ -50,20 +50,20 @@ header-includes:
 <div class="skills">
 <div>
 
-- Web development
-  - HTML, CSS, and JavaScript
-- Server-side programming
-  - Go
-  - Python
-  - Bash
+- Cloud computing
+  - Amazon Web Services
+  - Google Cloud Platform
+  - Digital Ocean
 - Operating systems
   - Linux (Ubuntu and Fedora based)
   - MacOS
   - Windows
-- Cloud computing
-  - Digital Ocean
-  - Amazon Web Services
-  - Google Cloud Platform
+- Server-side and REST API programming
+  - Go
+  - Python
+  - Bash
+- Web development
+  - HTML, CSS, and JavaScript
 
 </div>
 <div>
