@@ -33,13 +33,13 @@ jobs:
           wget https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb
           sudo apt install -y ./pandoc-2.19.2-1-amd64.deb
       - name: Convert md to html and pdf
-        run: ./build.sh
+        run: ./build.sh main
       - name: Setup gh pages
         uses: actions/configure-pages@v3
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
         with:
-          path: output/
+          path: output/main
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
