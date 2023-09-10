@@ -1,6 +1,6 @@
 #!/bin/bash
 
-in="resume.md"
+md="resume.md"
 out_dir="output"
 out_html="index.html"
 out_pdf="Clark_Winters-resume.pdf"
@@ -14,12 +14,34 @@ else
   is_ci=true
 fi
 
-out="${out_dir}/${out_html}"
-timestamp=$(date)
+function build {
+  local in=$1
+  local out_dir=output/$2
+  local out="${out_dir}/${out_html}"
+  local timestamp=$(date)
+  
+  mkdir -p ${out_dir}
+  rm -rf ${out_dir}/*
+  
+  cp -R assets ${out_dir}/
+  
+  pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
 
-mkdir -p ${out_dir}
-rm -rf ${out_dir}/*
-cp -R assets ${out_dir}/
+  [ $? -eq 0 ] && echo "${timestamp}: ${out} built successfully" || ( echo "${timestamp}: html build failed" && exit $? )
+
+  in=${out}
+  out="${out_dir}/${out_pdf}"
+
+  chromium --headless --print-to-pdf-no-header --disable-pdf-tagging --print-to-pdf=${out} ${in}
+
+  [ $? -eq 0 ] && echo "${timestamp}: ${out} built successfully" || ( echo "${timestamp}: pdf build failed" && exit $? )
+}
+
+if [ $1 == "-a" ]; then
+  build ./${md} 
+fi
+
+
 
 pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
 
