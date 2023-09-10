@@ -85,7 +85,3 @@ case $1 in
     done
     ;;
 esac
-
-if $is_ci; then
-  rm -f $out_dir/**/$out_html $out_dir/**/$out_pdf
-fi
