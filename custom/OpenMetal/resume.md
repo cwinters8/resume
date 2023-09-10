@@ -1,4 +1,4 @@
-—
+---
 title: Clark Winters
 subtitle: |
   <h2>Cloud Engineer</h2>
@@ -18,16 +18,16 @@ author-meta: Clark Winters
 header-includes:
   - |
     ```{=html}
-    <link rel=“shortcut icon” href=“./assets/favicon.ico” type=“image/x-icon”>
-    <meta name=“format-detection” content=“telephone=no”>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no">
     ```
-—
+---
 
-<!— markdownlint-disable MD033 MD001 —>
+<!-- markdownlint-disable MD033 MD001 -->
 
 ## General Skills {.top}
 
-<div class=“skills”>
+<div class="skills">
 <div>
 
 - Cloud deployment, automation, and migrations
@@ -48,7 +48,7 @@ header-includes:
 
 ## Technical Skills
 
-<div class=“skills”>
+<div class="skills">
 <div>
 
 - Cloud computing
@@ -59,7 +59,7 @@ header-includes:
   - Linux (Ubuntu and Fedora based)
   - MacOS
   - Windows
-- Server-side programming
+- Server-side and REST API programming
   - Go
   - Python
   - Bash
@@ -87,13 +87,13 @@ header-includes:
 </div>
 </div>
 
-—
+---
 
-<div class=“xp”><!— keep div —>
+<div class="xp"><!-- keep div -->
 
 ## Experience
 
-<div class=“job”><!— keep div —>
+<div class="job"><!-- keep div -->
 
 #### Lead Cloud Engineer, 2nd Watch
 
@@ -102,13 +102,13 @@ header-includes:
 - Led a team of 7 cloud engineers, supporting infrastructure for ~15 clients at any given time.
 - Delivered exceptional technical support and customer experiences through consistent communication and technical expertise.
 - Performed system administration tasks such as installing software, applying patches, and maintaining file systems on Linux and Windows virtual machines.
-- Introduced automated solutions to optimize clients’ systems and streamline internal processes.
+- Introduced automated solutions to optimize clients' systems and streamline internal processes.
 - Collaborated regularly with software and cloud engineering teams to ensure system reliability and durability.
-- Developed an intuitive full stack application, enabling a streamlined process for the patching team to categorize and patch customers’ EC2 instances.
+- Developed an intuitive full stack application, enabling a streamlined process for the patching team to categorize and patch customers' EC2 instances.
 
 </div>
 
-<div class=“job”><!— keep div —>
+<div class="job"><!-- keep div -->
 
 #### Systems Integration Specialist, Boeing
 
@@ -121,7 +121,7 @@ header-includes:
 
 </div>
 
-<div class=“job”><!— keep div —>
+<div class="job"><!-- keep div -->
 
 #### Database Administrator, 2nd Watch
 
@@ -135,7 +135,7 @@ header-includes:
 
 </div>
 
-<div class=“job”><!— keep div —>
+<div class="job"><!-- keep div -->
 
 #### Oracle Database Administrator, Boeing
 
@@ -144,11 +144,11 @@ header-includes:
 - Served as the Tech Lead for the internal Oracle Database on Linux managed service offering at Boeing, overseeing 65% of all Oracle databases for the company, which amounted to nearly 8000 instances on Oracle RAC clusters.
 - Assumed responsibility for implementing, maintaining, troubleshooting, and capacity planning of Oracle RAC clusters, including orchestration of round-the-clock operational support.
 - Composed run books and shell scripts to minimize errors and reduce delivery times.
-- Produced Oracle Database on Linux golden images used on VMWare instances for Boeing’s internal cloud DBaaS project.
+- Produced Oracle Database on Linux golden images used on VMWare instances for Boeing's internal cloud DBaaS project.
 
 </div>
 
-<div class=“job”><!— keep div —>
+<div class="job"><!-- keep div -->
 
 #### Database Administrator, IBM
 
@@ -162,9 +162,9 @@ header-includes:
 </div>
 
 </div>
-<!— <p class=“spacer”></p> —>
+<!-- <p class="spacer"></p> -->
 
-—
+---
 
 <div>
 
