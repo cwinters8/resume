@@ -67,7 +67,7 @@ ul {
 
 header h2 {
   margin: 0.25rem 0;
-  color: black;
+  color: var(--text);
 }
 
 /*
