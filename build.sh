@@ -37,7 +37,7 @@ function resume {
   in=${out}
   out="${out_dir}/${out_pdf}"
 
-  chromium --headless --print-to-pdf-no-header --disable-pdf-tagging --print-to-pdf=${out} ${in}
+  chromium --headless --no-pdf-header-footer --disable-pdf-tagging --print-to-pdf=${out} ${in}
 
   [ $? -eq 0 ] && echo "${timestamp}: ${out} built successfully" || ( echo "${timestamp}: pdf build failed" && exit $? )
 }
