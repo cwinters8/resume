@@ -51,9 +51,18 @@ function cover {
   local in=$1/cover_letter.pdf
   local out_dir=output/$2
 
+  mkdir -p $out_dir
+
   if [ -f $in ]; then
-    mkdir -p $out_dir
     cp $in $out_dir/
+  elif [ -f "$1/cover.md" ]; then
+    in="$1/cover.md"
+    out="$out_dir/cover.html"
+    pandoc ${in} -f markdown -t html -s -o ${out} -c assets/style.css
+
+    in=$out
+    out="$out_dir/cover.pdf"
+    chromium --headless --no-pdf-header-footer --disable-pdf-tagging --print-to-pdf=${out} ${in}
   fi
 }
 
