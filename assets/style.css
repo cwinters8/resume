@@ -74,6 +74,14 @@ header h2 {
   text-align: center;
 }
 
+.letter {
+  margin: 1rem 2rem 0;
+}
+
+.letter p {
+  margin: 1rem 0;
+}
+
 /*
   simple.css (src: https://github.com/kevquirk/simple.css/blob/main/simple.css)
   somewhat modified from original
