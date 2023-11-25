@@ -70,6 +70,10 @@ header h2 {
   color: var(--text);
 }
 
+.mission {
+  text-align: center;
+}
+
 /*
   simple.css (src: https://github.com/kevquirk/simple.css/blob/main/simple.css)
   somewhat modified from original
