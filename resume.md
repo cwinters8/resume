@@ -26,24 +26,31 @@ header-includes:
 
 <p class="mission"><em>Making order out of chaos through elegant technical solutions and the integration of diverse data sources.</em></p>
 
-## General Skills {.top}
+Clark is a skilled technical professional with expertise in web development, DevOps engineering, and systems integration. He is well-versed in web, cloud, and database ecosystems. With an affinity for the Go programming language and tools such as Terraform and Docker, Clark helps clients build full stack web services, REST APIs, scalable cloud infrastructure, and automation scripts. He prioritizes efficient and tailored solutions, commits to on-time delivery, and quickly adapts to new projects.
 
-<div class="skills">
+## Services {.top}
+
+<div class="services">
 <div>
 
-- Building effective solutions
-- API integration and development
-- Database configuration and schema design
-- Scalable infrastructure deployment
+### Custom web development
+
+- Static sites, optionally using Static Site Generation (SSG)
+- Full stack web services
+- Dynamic, interactive web experiences
+- REST APIs for programmatic data interactivity
 
 </div>
 
 <div>
 
-- Efficient troubleshooting
-- Learning new skills quickly and easily
-- Fostering positive relationships
-- Consistent and clear communication
+### DevOps engineering
+
+- New or refactored cloud infrastructure
+- Container deployments
+- Continuous integration and delivery (CI/CD)
+- Infrastructure as code
+- Serverless development and automation
 
 </div>
 </div>
@@ -53,39 +60,49 @@ header-includes:
 <div class="skills">
 <div>
 
-- Web development
-  - HTML, CSS, and JavaScript
-- Server-side programming
-  - Go
-  - Python
-  - Bash
-- Operating systems
-  - Linux (Ubuntu and Fedora based)
-  - MacOS
-  - Windows
-- Cloud computing
-  - Amazon Web Services
-  - Oracle Cloud Infrastructure
-  - Digital Ocean
-  - Google Cloud Platform
+### Languages and frameworks
+
+- Go
+- HTML & CSS
+- JavaScript
+- TypeScript
+- Vue.js
+- Tailwind CSS
+- SQL
+- Markdown
+- Bash
+
+### Clouds
+
+- Amazon Web Services
+- DigitalOcean
+- Oracle Cloud
 
 </div>
 <div>
 
-- Databases and SQL
-  - MySQL
-  - PostgreSQL, including CockroachDB
-  - Oracle
-  - SQL Server
-  - MongoDB
-- Tools
-  - Terraform
-  - Docker
-  - Ansible
-  - Git, GitHub, GitLab, and BitBucket
-  - Jira
-  - Zendesk
-  - Freshdesk and Freshservice
+### Containers
+
+- Docker
+- Kubernetes
+- Amazon Elastic Container Service
+
+### Infrastructure as code
+
+- Terraform
+- AWS CloudFormation
+- Ansible
+
+### CI/CD
+
+- GitHub Actions
+- GitLab CI/CD
+- AWS CodeBuild and CodePipeline
+
+### Automation
+
+- Serverless functions
+- Worker services
 
 </div>
 </div>

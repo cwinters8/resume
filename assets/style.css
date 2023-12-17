@@ -19,14 +19,21 @@ hr {
   color: var(--accent-header);
 }
 
-.skills {
+.skills,
+.services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-bottom: 0.5rem;
 }
 
+.services {
+  row-gap: 1rem;
+}
+
 .skills div,
-.skills ul {
+.skills ul,
+.services div,
+.services ul {
   margin: 0;
 }
 
