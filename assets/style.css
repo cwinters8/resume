@@ -74,6 +74,12 @@ header h2 {
   text-align: center;
 }
 
+.summary {
+  font-size: 0.9rem;
+  margin: 1rem 2rem;
+  line-height: 1.8;
+}
+
 .letter {
   margin: 1rem 2rem 0;
 }
