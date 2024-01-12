@@ -33,7 +33,7 @@ jobs:
           wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-1-amd64.deb
           sudo apt install -y ./pandoc-3.1.9-1-amd64.deb
       - name: Convert md to html and pdf
-        run: ./build.sh main
+        run: ./build.sh
       - name: Setup gh pages
         uses: actions/configure-pages@v3
       - name: Upload artifacts
