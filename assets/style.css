@@ -10,13 +10,13 @@ hr {
 }
 
 .title {
-  margin: 1rem auto 0;
+  margin: 1rem auto 0.5rem;
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  font-weight: bold;
+  /* font-size: 1.2rem; */
   color: var(--accent-header);
+  margin: 0.5rem auto;
 }
 
 .skills {
@@ -122,7 +122,7 @@ header h2 {
     --accent-bg: #2b2b2b;
     --text: #dcdcdc;
     --text-light: #ababab;
-    --accent: #9e33ff;
+    --accent: #a647ff;
     --code: #f06292;
     --preformatted: #ccc;
     --disabled: #111;
@@ -761,7 +761,7 @@ progress:indeterminate::-moz-progress-bar {
   }
 
   body > header {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0;
   }
 
   h1,

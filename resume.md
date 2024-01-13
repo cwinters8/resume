@@ -1,9 +1,6 @@
 ---
 title: Clark Winters
-subtitle: |
-  [clarkwinters.com](https://clarkwinters.com) | [dev@clarkwinters.com](mailto:dev@clarkwinters.com) | [417-880-6924](tel:+14178806924)
-  <br>
-  1065 Red Oak Rd, Seymour, MO 65746
+subtitle: "[clarkwinters.com](https://clarkwinters.com) | [dev@clarkwinters.com](mailto:dev@clarkwinters.com) | [417-880-6924](tel:+14178806924)"
 description-meta: Clark Winters Resume
 keywords:
   - devops
@@ -35,19 +32,19 @@ header-includes:
 <div class="skills">
 <div>
 
-- API integration and development
-- Database configuration and schema design
-- Scalable infrastructure deployment
-- Continuous integration and delivery (CI/CD)
-- Web interface creation
+- Site reliability and DevOps engineering
+- Security and data protection
+- Scalable and resilient architectures
+- Microservices
+- API development and integration
 
 </div>
 
 <div>
 
-- Microservice architectures
-- Security and data protection
-- Building effective and reliable solutions
+- Database configuration and schema design
+- Continuous integration and delivery (CI/CD)
+- Web interface creation
 - Efficient troubleshooting
 - Consistent and clear communication
 
