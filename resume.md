@@ -104,14 +104,14 @@ header-includes:
 2023 - Present, Remote
 
 - Brought a unique combination of DevOps, database, and software development expertise to meet clients' needs and assist them in navigating the ever-changing landscape of software and cloud technologies.
-- Contributed to existing software projects and developed new software solutions, always prioritizing the delivery of pragmatic, dependable, and maintainable solutions within specified timelines.
+- Contributed to existing software projects and developed new solutions, always prioritizing the delivery of pragmatic, dependable, and maintainable systems within specified timelines.
 - Configured and automated cloud infrastructure using Infrastructure as Code tools and CI/CD workflows.
 
 #### Lead Cloud Engineer, 2nd Watch
 
 2019 - 2022, Remote
 
-- Introduced infrastructure as code configuration and other automated solutions to optimize clients' systems and streamline internal processes.
+- Introduced Infrastructure as Code configuration and other automated solutions to optimize clients' systems and streamline internal processes.
 - Developed an intuitive full-stack application, enabling a streamlined process for the patching team to categorize and patch customers' Amazon EC2 instances.
 - Performed system administration tasks such as installing software, applying patches, and maintaining file systems on Linux and Windows virtual machines.
 - Delivered exceptional customer experiences through on-time delivery, consistent communication, and technical expertise.
