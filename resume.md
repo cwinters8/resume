@@ -69,7 +69,6 @@ header-includes:
   - Amazon Web Services
   - Oracle Cloud Infrastructure
   - Digital Ocean
-  - Google Cloud Platform
 
 </div>
 <div>
