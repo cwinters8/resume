@@ -1,0 +1,4 @@
+modules = ["web", "go-1.21", "bash"]
+
+[nix]
+channel = "stable-24_05"

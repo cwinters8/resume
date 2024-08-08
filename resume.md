@@ -66,7 +66,7 @@ header-includes:
   - Linux (**Ubuntu** and Fedora based)
   - MacOS
 - Cloud computing
-  - Amazon Web Services
+  - **Amazon Web Services**
   - Oracle Cloud Infrastructure
   - Digital Ocean
 
@@ -98,7 +98,7 @@ header-includes:
 
 <div class="job"><!-- keep div -->
 
-#### Freelance Cloud Developer
+#### Freelance DevOps Engineer
 
 2023 - Present, Remote
 
