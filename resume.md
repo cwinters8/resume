@@ -103,8 +103,8 @@ header-includes:
 2023 - Present, Remote
 
 - Brought a unique combination of DevOps, database, and software development expertise to meet clients' needs and assist them in navigating the ever-changing landscape of software and cloud technologies.
+- Configured and automated cloud infrastructure using Infrastructure as Code and GitOps tools.
 - Contributed to existing software projects and developed new solutions, always prioritizing the delivery of pragmatic, dependable, and maintainable systems within specified timelines.
-- Configured and automated cloud infrastructure using Infrastructure as Code tools and CI/CD workflows.
 
 #### Lead Cloud Engineer, 2nd Watch
 
